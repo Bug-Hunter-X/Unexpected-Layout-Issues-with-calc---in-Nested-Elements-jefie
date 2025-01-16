@@ -1,0 +1,16 @@
+/* solution.css */
+.parent {
+  width: 500px; /* Explicitly set parent width */
+}
+
+.child {
+  width: calc(100% - 10px);
+}
+/*Alternative solution using vw units*/
+.parent2 {
+  /*No need to explicitly set width*/
+}
+
+.child2 {
+  width: calc(50vw - 10px); 
+}
